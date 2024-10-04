@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+        
+         .navbar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+            
+         }
+         .navbar .logo{
+            font-weight: 800;
+            font-size: 30px;
+            color: blueviolet;
+            text-decoration: none;
+         }
+         .navbar ul{
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+            gap: 10px;
+            list-style: none;
+         }
+         .navbar ul .navlinks a{
+            color: blueviolet;
+            text-decoration: none;
+         }
+         .content-section {
+            height: 100vh;
+            background: url(./neom-eOWabmCNEdg-unsplash.jpg) no-repeat  ;
+            background-size: 100vw 100vh;
+            object-fit: contain;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center; */
+            position: relative;
+            overflow-x: hidden; /* Prevents horizontal scroll */
+            padding-left: 6%; 
+        }
+        .content-section h1{
+            /* margin-right: 50%; */
+            font-size: 100px;
+        }
+        .content-section p{
+            color: white;
+            margin-right: 40%;
+            /* font-size: 100px; */
+        }
+        .content-section a{
+            padding: 10px;
+            border-radius: 3px;
+
+            color: blueviolet;
+            text-decoration: none;
+            background-color: white;
+            opacity: 015;
+        }
+        .second-content .cards{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">TRAVEL</a>
+            <ul class="content">
+                <li class="navlinks"><a href="#" >Home</a></li>
+                <li class="navlinks"><a href="#" >Services</a></li>
+                <li class="navlinks"><a href="#" >Contact Us!</a></li>
+            </ul>
+        </nav>
+        <section class="content-section">
+            <h1>Fuel Mind </h1>
+            <h1>Travel</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. explicabo  fugit perferendis ab unde. Ab, deleniti repudiandae amet incidunt adipisci eligendi.</p>
+            <a href="#" class="letsgo">Let's Go Now</a>
+        </section>
+    </header>
+    <div class="second-content">
+        <h1>Start your vacation with lots of services</h1>
+        <div class="cards">
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./ship-logo-vector-design_986425-88.avif" class="card-img-top " width="100px" height="100px" style="padding: 10px;" alt="">
+                <div class="card-body">
+                  <h1 class="card-title">Ship Cruise</h1>
+                  <p class="card-text">150 Properties</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./ship-logo-vector-design_986425-88.avif" class="card-img-top " width="100px" height="100px" style="padding: 10px;" alt="">
+                <div class="card-body">
+                <h1 class="card-title">Ship Cruise</h1>
+                <p class="card-text">150 Properties</p>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="./ship-logo-vector-design_986425-88.avif" class="card-img-top " width="100px" height="100px" style="padding: 10px;" alt="">
+                <div class="card-body">
+                  <h1 class="card-title">Ship Cruise</h1>
+                  <p class="card-text">150 Properties</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
